@@ -163,7 +163,7 @@ import nrfawData from 'lancer-nrfaw-data'
 import longrimData from 'lancer-longrim-data'
 import crisisData from '@/addons/crisis-catalog-data'
 import solsticeData from '@/addons/osr-data'
-
+import dgraveData from '@/addons/dustgrave-data'
 import ssmrData from '@/addons/ssmr-data'
 import igfaData from '@/addons/golden-flame-data'
 
