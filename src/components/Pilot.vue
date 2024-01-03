@@ -161,6 +161,11 @@ import lancerData from 'lancer-data'
 import ktbData from 'lancer-ktb-data'
 import nrfawData from 'lancer-nrfaw-data'
 import longrimData from 'lancer-longrim-data'
+import crisisData from 'crisis-catalog-data'
+import solsticeData from 'osr-data'
+import dgraveData from 'dustgrave-data'
+import ssmrData from 'ssmr-data'
+import igfaData from 'golden-flame-data'
 
 import TypeIt from "typeit";
 
@@ -187,7 +192,7 @@ export default {
   },
   data() {
     return {
-      knownGear: [...lancerData.pilot_gear, ...nrfawData.pilot_gear],
+      knownGear: [...lancerData.pilot_gear, ...nrfawData.pilot_gear, ...dgraveData.pilot_gear, ...ssmrData.pilot_gear, ...igfaData.pilot_gear],
       activeMech: {},
       bond: {},
     }
@@ -200,10 +205,10 @@ export default {
       return `/mechs/${this.pilot.callsign}.webp`
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...crisisData.weapons, ...dgraveData.weapons, ...solsticeData.weapons, ...ssmrData.weapons, ...igfaData.weapons]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...crisisData.systems, ...dgraveData.systems, ...solsticeData.systems, ...ssmrData.systems, ...igfaData.systems]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
@@ -263,7 +268,7 @@ export default {
         this.pilot.mechs[0] ? this.activeMech = this.pilot.mechs[0] : lancerData.frames.find((obj) => { return obj.id === 'missing_frame' })
       }
 
-      const knownFrames = [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames]
+      const knownFrames = [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...crisisData.frames, ...dgraveData.frames, ...solsticeData.frames, ...ssmrData.frames]
       let frame = knownFrames.find((obj) => {
         return obj.id === this.activeMech.frame
       })

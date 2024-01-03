@@ -26,7 +26,7 @@
 			</div>
 		</section>
 		<section id="events" class="section-container" :style="{ 'animation-delay': animationDelay }">
-			<div class="section-header clipped-medium-backward">
+			<!--<div class="section-header clipped-medium-backward">
 				<img src="/icons/events.svg" />
 				<h1>Events Log</h1>
 			</div>
@@ -37,7 +37,21 @@
 					  :key="item.title"
 					  :event="item" />
 				</div>
+			</div>-->
+			<div class="section-header clipped-medium-backward">
+				<img src="/icons/npc.svg" />
+				<h1>Persons of Interest</h1>
 			</div>
+				<div class="section-content-container">
+					<div class="section-container">
+						<Npcs
+						v-for="item in npcs"
+						:key="item.title"
+						:npc="item" 
+						:animate="animate" />
+					</div>
+				</div>
+			
 		</section>
 		<section id="reserves" class="section-container" :style="{ 'animation-delay': animationDelay }">
 			<div class="section-header clipped-medium-backward">
@@ -79,6 +93,7 @@ import Mission from "@/components/Mission.vue";
 import Event from "@/components/Event.vue";
 import Clock from "@/components/Clock.vue";
 import Reserve from "@/components/Reserve.vue";
+import Npcs from "@/components/Npcs.vue";
 
 export default {
 	components: {
@@ -87,6 +102,7 @@ export default {
 		Event,
 		Clock,
 		Reserve,
+		Npcs
 	},
 	props: {
 		animate: {
@@ -98,6 +114,10 @@ export default {
 			required: true,
 		},
 		missions: {
+			type: Array,
+			required: true,
+		},
+		npcs: {
 			type: Array,
 			required: true,
 		},

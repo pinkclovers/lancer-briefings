@@ -1,28 +1,31 @@
 {
-  "initialSlug": "001",
-  "planetPath": "/planet.webm",
+  "initialSlug": "000",
+  "planetPath": "/cressidium.webm",
   "animate": true,
-  "defaultTitle": "MSMC |",
-  "icon": "/faction-logos/msmc.svg",
+  "defaultTitle": "",
+  "icon": "/faction-logos/union.svg",
   "header": {
-    "planet": "Hercynia",
-    "year": "5014u",
-    "system": "Ardennes-3",
-    "gate": "Atlas-Quanokrim",
-    "ring": "Atlas-Line",
-    "headerTitle": "Mirrorsmoke",
-    "headerSubtitle": "Mercenary Company",
-    "subheaderTitle": "Crisis Response",
-    "subheaderSubtitle": "Delta-Echo-Echo-Zulu"
+    "planet": "Cressidium",
+    "year": "5016u",
+    "system": "Veros-3",
+    "gate": "CASCADE-Liberty Cap",
+    "ring": "CASCADE-Line",
+    "headerTitle": "OPERATION SOLSTICE RAIN",
+    "headerSubtitle": "",
+    "subheaderTitle": "UNS-CV Rio Grande",
+    "subheaderSubtitle": "534th Calvary Wing"
   },
   "pilotSpecialInfo": {
-    "APOLLO": {
-      "age": "32u",
-      "pob": "Evergreen"
+    "SHOWCASE": {
+      "age": "[MISSING]",
+      "pob": "[MISSING]"
     },
-    "RAI-DEN": {
-      "age": "48u",
-      "pob": "Gaia"
+    "CARAMEL": {
+    },
+    "STARGAZER": {
+    }
+    ,
+    "DETROIT": {
     }
   }
 }

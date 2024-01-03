@@ -10,6 +10,7 @@
 			:missions="missions"
 			:events="events"
 			:pilots="pilots"
+			:npcs="npcs"
 			:clocks="clocks"
 			:reserves="reserves"
 		/>
@@ -59,6 +60,7 @@ export default {
 			pilotSpecialInfo: Config.pilotSpecialInfo,
 			clocks: [],
 			events: [],
+			npcs: [],
 			missions: [],
 			pilots: [],
 			reserves: [],
@@ -66,12 +68,13 @@ export default {
 		};
 	},
 	created() {
-    this.setTitleFavicon(Config.defaultTitle + " MISSION BRIEFING", Config.icon);
+    this.setTitleFavicon(Config.defaultTitle + "UNION | MISSION BRIEFING", Config.icon);
 		this.importMissions(import.meta.glob("@/assets/missions/*.md", { as: "raw" }));
 		this.importEvents(import.meta.glob("@/assets/events/*.md", { as: "raw" }));
 		this.importClocks(import.meta.glob("@/assets/clocks/*.json"));
 		this.importReserves(import.meta.glob("@/assets/reserves/*.json"));
 		this.importPilots(import.meta.glob("@/assets/pilots/*.json"));
+		this.importNpcs(import.meta.glob("@/assets/npcs/*.md", { as: "raw" }));
 	},
 	mounted() {
 		this.$router.push("/status");
@@ -108,6 +111,19 @@ export default {
 				event["thumbnail"] = content.split("\n")[3];
 				event["content"] = content.split("\n").splice(4).join("\n");
 				this.events = [...this.events, event];
+			});
+		},
+		async importNpcs(files) {
+			let filePromises = Object.keys(files).map(path => files[path]());
+			let fileContents = await Promise.all(filePromises);
+			fileContents.forEach(content => {
+				let npc = {};
+				npc["title"] = content.split("\n")[0];
+				npc["location"] = content.split("\n")[1];
+				npc["time"] = content.split("\n")[2];
+				npc["thumbnail"] = content.split("\n")[3];
+				npc["content"] = content.split("\n").splice(4).join("\n");
+				this.npcs = [...this.npcs, npc];
 			});
 		},
 		async importClocks(files) {
