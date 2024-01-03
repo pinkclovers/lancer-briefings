@@ -7,7 +7,7 @@
 		"serve": "vite preview",
 		"preview": "vite preview",
 		"format": "prettier .  --write",
-		"postinstall": "cp -r addons/ node_modules/"
+		"postinstall": "node postinstall.js"
 	},
 	"dependencies": {
 		"@oruga-ui/oruga-next": "^0.5.5",
