@@ -1,0 +1,28 @@
+{
+  "name": "lancer-nrfaw-data",
+  "version": "1.0.8",
+  "description": "Player-side COMP/CON data from 'No Room For A Wallflower', a LANCER narrative for the LANCER TTRPG",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OmnesPotens/nrfaw-data.git"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "OmnesPotens",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/OmnesPotens/nrfaw-data/issues"
+  },
+  "homepage": "https://github.com/OmnesPotens/nrfaw-data",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lancer",
+    "nrfaw",
+    "no room for a wallflower",
+    "wallflower"
+  ]
+}

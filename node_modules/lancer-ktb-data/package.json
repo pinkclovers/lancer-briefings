@@ -1,0 +1,27 @@
+{
+  "name": "lancer-ktb-data",
+  "version": "1.1.0",
+  "description": "Player-side COMP/CON data from 'Field Guide: The Karrakin Trade Baronies' for the LANCER TTRPG",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OmnesPotens/ktb-data.git"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "OmnesPotens",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/OmnesPotens/ktb-data/issues"
+  },
+  "homepage": "https://github.com/OmnesPotens/ktb-data",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lancer",
+    "ktb",
+    "karrakin"
+  ]
+}
