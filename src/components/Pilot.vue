@@ -161,11 +161,11 @@ import lancerData from 'lancer-data'
 import ktbData from 'lancer-ktb-data'
 import nrfawData from 'lancer-nrfaw-data'
 import longrimData from 'lancer-longrim-data'
-import crisisData from '/addons/crisis-catalog-data'
-import solsticeData from '/addons/osr-data'
-import dgraveData from '/addons/dustgrave-data'
-import ssmrData from '/addons/ssmr-data'
-import igfaData from '/addons/golden-flame-data'
+import crisisData from 'crisis-catalog-data'
+import solsticeData from 'osr-data'
+import dgraveData from 'dustgrave-data'
+import ssmrData from 'ssmr-data'
+import igfaData from 'golden-flame-data'
 
 import TypeIt from "typeit";
 
