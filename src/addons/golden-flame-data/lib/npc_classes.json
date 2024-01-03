@@ -1,0 +1,417 @@
+[
+    {
+        "id": "igfa1_npcc_deluge",
+        "name": "DELUGE",
+        "role": "artillery",
+        "info": {
+            "flavor": "Deluge-type chassis are the logical extreme of the n+1 doctrine of firepower. One big, expensive gun might be more powerful, but a handful of slightly smaller guns can do the job just as well for less money. Why waste a king’s ransom on some fancy guided missile that might get punked by ECM when you can just buy ten thousand bullets and hose the whole place down? One of them has to hit, after all.",
+            "tactics": "The Deluge’s primary tactic is to inhibit mobility by laying down zones which let it automatically damage anything that enters them. As it continues to fire, its damage increases along with its heat – which is a potential weakness, since it needs to be close to exceeding its heat cap to do the most damage."
+        },
+        "stats": {
+            "armor": [
+                2,
+                2,
+                2
+            ],
+            "hp": [
+                12,
+                14,
+                18
+            ],
+            "evade": [
+                7,
+                8,
+                8
+            ],
+            "edef": [
+                10,
+                12,
+                14
+            ],
+            "heatcap": [
+                8,
+                8,
+                8
+            ],
+            "speed": [
+                3,
+                3,
+                3
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                1,
+                2,
+                3
+            ],
+            "agility": [
+                -2,
+                -2,
+                -2
+            ],
+            "systems": [
+                0,
+                1,
+                1
+            ],
+            "engineering": [
+                2,
+                3,
+                5
+            ],
+            "size": [
+                [
+                    2
+                ],
+                [
+                    2
+                ],
+                [
+                    2
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "igfa1_npcf_quad_assault_cannons_deluge",
+            "igfa1_npcf_lead_rain_deluge",
+            "igfa1_npcf_reactive_defense_system_deluge",
+            "igfa1_npcf_spin_up_deluge"
+        ],
+        "optional_features": [
+            "igfa1_npcf_mathur_stop_deluge",
+            "igfa1_npcf_point_defense_mode_deluge",
+            "igfa1_npcf_riding_the_redline_deluge",
+            "igfa1_npcf_svob_deluge",
+            "igfa1_npcf_spray_and_pray_deluge",
+            "igfa1_npcf_withering_hail_deluge"
+        ],
+        "power": 100
+    },
+    {
+        "id": "igfa1_npcc_lobber",
+        "name": "LOBBER",
+        "role": "striker",
+        "info": {
+            "flavor": "An example of the Long Rim’s brutally pragmatic approach to combat, the Lobber is little more than a civilian loader frame covered in pressure plating, wielding repurposed mining explosives. They're a cheap, efficient force multiplier, and terrifyingly effective against soft targets or mechanized chassis in close formation.",
+            "tactics": "The Lobber is a close-range combatant that specializes in punishing targets who bunch up. It has a broad range of optional systems that allow its attacks more tactical flexibility. Notably, it’s resistant to all of the damage it can deal, so it doesn’t need to worry so much about catching itself in its own blasts.<br>If it has multiple optional systems that modify its Mining Charge attacks, it can use any and all of them at once."
+        },
+        "stats": {
+            "armor": [
+                1,
+                1,
+                1
+            ],
+            "hp": [
+                12,
+                14,
+                16
+            ],
+            "evade": [
+                8,
+                10,
+                12
+            ],
+            "edef": [
+                8,
+                10,
+                12
+            ],
+            "heatcap": [
+                6,
+                6,
+                8
+            ],
+            "speed": [
+                5,
+                5,
+                5
+            ],
+            "sensor": [
+                8,
+                8,
+                8
+            ],
+            "save": [
+                12,
+                15,
+                18
+            ],
+            "hull": [
+                0,
+                1,
+                2
+            ],
+            "agility": [
+                1,
+                2,
+                3
+            ],
+            "systems": [
+                -1,
+                -1,
+                0
+            ],
+            "engineering": [
+                1,
+                1,
+                2
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "igfa1_npcf_mining_charge_lobber",
+            "igfa1_npcf_blast_plating_lobber",
+            "igfa1_npcf_interesting_cqb_lobber",
+            "igfa1_npcf_cook_off_lobber"
+        ],
+        "optional_features": [
+            "igfa1_npcf_assault_launcher_lobber",
+            "igfa1_npcf_expert_demolitionist_lobber",
+            "igfa1_npcf_incendiary_charge_lobber",
+            "igfa1_npcf_kinetic_charge_lobber",
+            "igfa1_npcf_oversize_charge_lobber",
+            "igfa1_npcf_seismic_charge_lobber",
+            "igfa1_npcf_witness_me"
+        ],
+        "power": 100
+    },
+    {
+        "id": "igfa1_npcc_parallel",
+        "name": "PARALLEL",
+        "role": "striker",
+        "info": {
+            "flavor": "PREPARED BY: UIB-TERMINALCLICHE<li>RECOVERED FOR: UIB-KATABATIC<li>CLEARENCE REQ: SOLEMN VIGIL<br>I can confirm that mechs belonging to pattern group “Parallel” match the profile of contacts first observed during the Calliope Incident (see report: CALAMITY AXIS). We’re still trying to identify the original developer. Current best guesses are SSC, the Armory, Horizon, or even the Cult of the One, but in my opinion, it can’t be any of them. This tech is years ahead of even the largest corprostates, let alone a bunch of cultists in a garage.",
+            "tactics": "The Parallel is a highly mobile striker that can dominate large areas of the battlefield by literally being in two places at once. PHASE ECHO lets them position a surrogate that they can switch places with to avoid incoming damage or make reaction attacks. A Parallel’s main weakness is its fragility; it relies on careful positioning and judicious use of REVERT to avoid high-damage attacks. It can’t stand up to repeated damage, and removing its echoes hampers its mobility."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                12,
+                14,
+                18
+            ],
+            "evade": [
+                8,
+                10,
+                12
+            ],
+            "edef": [
+                10,
+                12,
+                14
+            ],
+            "heatcap": [
+                6,
+                8,
+                8
+            ],
+            "speed": [
+                5,
+                5,
+                5
+            ],
+            "sensor": [
+                5,
+                5,
+                5
+            ],
+            "save": [
+                11,
+                13,
+                16
+            ],
+            "hull": [
+                0,
+                0,
+                0
+            ],
+            "agility": [
+                2,
+                3,
+                4
+            ],
+            "systems": [
+                2,
+                2,
+                3
+            ],
+            "engineering": [
+                0,
+                1,
+                2
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "igfa1_npcf_possibility_blade_parallel",
+            "igfa1_npcf_anomalous_motion_parallel",
+            "igfa1_npcf_phase_echo_parallel",
+            "igfa1_npcf_revert_parallel",
+            "igfa1_npcf_achronal_response_parallel"
+        ],
+        "optional_features": [
+            "igfa1_npcf_cracked_mirror_parallel",
+            "igfa1_npcf_deathwalker_parallel",
+            "igfa1_npcf_doppler_parallel",
+            "igfa1_npcf_manifest_possibility_parallel",
+            "igfa1_npcf_shatter_parallel",
+            "igfa1_npcf_uncertainty_parallel",
+            "igfa1_npcf_wraithshot_parallel"
+        ],
+        "power": 100
+    },
+    {
+        "id": "igfa1_npcc_slinger",
+        "name": "SLINGER",
+        "role": "controller",
+        "info": {
+            "flavor": "Slinger-class mechs are a favorite among pilots who value skill over raw firepower. Stable, agile and dependable, Slinger frames don’t need military-grade guns or fancy tech; all they need is someone at the controls who knows when to take the shot that ends the fight. Stepping into battle against a Slinger is a nerve-wracking experience: a quiet duel of resolve, each combatant seeking their perfect moment, the razor-thin window that separates the quick from the dead.",
+            "tactics": "Slingers are potent area denial specialists who trade heavily on their Deathmark mechanic. It inflicts these upon a critical hit, so it will benefit allies who can provide LOCK ON. Its attacks ignore armor and deal damage even on a miss, and if it’s inflicted a lot of Deathmarks, it can unleash several at once at the startof its turn, threatening multiple foes in a wide radius.<br>The Slinger’s primary weaknesses are its inability to deal with targets at long range and its reliance on Deathmark to be effective. Players inflicting IMPAIRED or using cover will make marks harder to inflict."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                16,
+                20,
+                20
+            ],
+            "evade": [
+                10,
+                12,
+                14
+            ],
+            "edef": [
+                8,
+                10,
+                12
+            ],
+            "heatcap": [
+                7,
+                7,
+                7
+            ],
+            "speed": [
+                4,
+                4,
+                5
+            ],
+            "sensor": [
+                8,
+                8,
+                8
+            ],
+            "save": [
+                11,
+                13,
+                16
+            ],
+            "hull": [
+                1,
+                2,
+                3
+            ],
+            "agility": [
+                2,
+                3,
+                4
+            ],
+            "systems": [
+                -1,
+                -1,
+                -1
+            ],
+            "engineering": [
+                1,
+                1,
+                1
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "igfa1_npcf_hand_cannon_slinger",
+            "igfa1_npcf_cool_hand_slinger",
+            "igfa1_npcf_deathmark_slinger",
+            "igfa1_npcf_suns_zenith_slinger",
+            "igfa1_npcf_ring_the_bell_slinger"
+        ],
+        "optional_features": [
+            "igfa1_npcf_extra_hc_slinger",
+            "igfa1_npcf_dark_wind_slinger",
+            "igfa1_npcf_devils_eye_slinger",
+            "igfa1_npcf_draw_slinger",
+            "igfa1_npcf_fan_the_hammer_slinger",
+            "igfa1_npcf_impossible_ricochet_slinger",
+            "igfa1_npcf_outlaws_hand_slinger",
+            "igfa1_npcf_shouldna_aughta_slinger",
+            "igfa1_npcf_true_grit_slinger"
+        ],
+        "power": 100
+    }
+]
