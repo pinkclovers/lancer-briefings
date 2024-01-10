@@ -1,10 +1,10 @@
 [
 	{
-		"type": "None at this Moment",
-		"name": "",
-		"description": "",
+		"type": "Tactical",
+		"name": "Bombardment",
+		"description": "The ability to call in artillery or orbital bombardment once during mech combat (full action, RANGE 30 within line of sight, BLAST 2, 3d6 explosive damage).",
 		"label": "Label",
-		"cost": "Cost",
+		"cost": "Full Action",
 		"notes": "Notes",
 		"callsign": ""
 	}
