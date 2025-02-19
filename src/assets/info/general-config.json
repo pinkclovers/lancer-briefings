@@ -1,19 +1,19 @@
 {
-  "initialSlug": "000",
-  "planetPath": "/cressidium.webm",
+  "initialSlug": "001",
+  "planetPath": "/Stygia.webm",
   "animate": true,
   "defaultTitle": "",
-  "icon": "/faction-logos/union.svg",
+  "icon": "/faction-logos/hellsgate.svg",
   "header": {
-    "planet": "Cressidium",
+    "planet": "Stygia",
     "year": "5016u",
-    "system": "Veros-3",
-    "gate": "CASCADE-Liberty Cap",
-    "ring": "CASCADE-Line",
-    "headerTitle": "OPERATION SOLSTICE RAIN",
-    "headerSubtitle": "",
-    "subheaderTitle": "UNS-CV Rio Grande",
-    "subheaderSubtitle": "534th Calvary Wing"
+    "system": "Calliope",
+    "gate": "ANNAMITE-RÀO CỎ",
+    "ring": "ANNAMITE-Line",
+    "headerTitle": "STYGIA",
+    "headerSubtitle": "MINING PLATFORM",
+    "subheaderTitle": "Hell's Gate",
+    "subheaderSubtitle": "Strategic Response Team"
   },
   "pilotSpecialInfo": {
     "SHOWCASE": {

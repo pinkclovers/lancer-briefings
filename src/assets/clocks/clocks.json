@@ -1,3 +1,22 @@
 [
-
+    {
+        "type": "Hell's Gate",
+        "result": "Positive",
+        "name": "Station Stability",
+        "description": "General condition of Hell's Gate and its essential citizens, the more segments this has filled, the easier life is for its citizens.",
+        "color": "#7DBBBB", 
+        "color": "#FD7777", 
+        "value": 2,
+        "max": 12
+    },
+    {
+        "type": "Hell's Gate",
+        "result": "Positive",
+        "name": "Militia Readiness",
+        "description": "The general level of combat preparation among the Hell's Gate militia. -- The maintenance and quality of equipment, their training, their drilling, their camaraderie, their willingness to risk life and limb for one another and for the station.",
+        "color": "#7DBBBB", 
+        "color": "#FD7777", 
+        "value": 1,
+        "max": 8
+    }
 ]

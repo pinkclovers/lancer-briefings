@@ -68,7 +68,7 @@ export default {
 		};
 	},
 	created() {
-    this.setTitleFavicon(Config.defaultTitle + "UNION | MISSION BRIEFING", Config.icon);
+    this.setTitleFavicon(Config.defaultTitle + "STYGIA MINING PLATFORM | LIVE PERFORMANCE LOG", Config.icon);
 		this.importMissions(import.meta.glob("@/assets/missions/*.md", { as: "raw" }));
 		this.importEvents(import.meta.glob("@/assets/events/*.md", { as: "raw" }));
 		this.importClocks(import.meta.glob("@/assets/clocks/*.json"));

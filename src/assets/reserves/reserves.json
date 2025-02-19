@@ -1,11 +1,29 @@
 [
 	{
-		"type": "Tactical",
-		"name": "Bombardment",
-		"description": "The ability to call in artillery or orbital bombardment once during mech combat (full action, RANGE 30 within line of sight, BLAST 2, 3d6 explosive damage).",
+		"type": "Favor",
+		"name": "A Shot at Redemption [1/1]",
+		"description": "Expend a charge at the start of a fight. A friendly SPACER SUPPORT with REMOTE CLOUD shows up to help you for the rest of the fight.",
 		"label": "Label",
-		"cost": "Full Action",
+		"cost": "Cost",
 		"notes": "Notes",
 		"callsign": ""
+	},
+	{
+		"type": "Tactical",
+		"name": "Recon Drone",
+		"description": "At the start of each combat, choose a single hostile character within Range 50 and Scan them. This does not require line of sight.",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "Notes",
+		"callsign": "ROULETTE"
+	},
+	{
+		"type": "Exotic",
+		"name": "Bronco Hook",
+		"description": "",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "Notes",
+		"callsign": "FAFNIR"
 	}
 ]
