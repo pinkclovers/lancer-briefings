@@ -1,5 +1,5 @@
 {
-  "name": "field-guide-to-suldan",
+  "name": "fgts-data",
   "version": "2.2.6",
   "description": "Player-facing COMP/CON data from 'Field Guide to Suldan'",
   "main": "index.js",
