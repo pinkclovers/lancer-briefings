@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const folderPath = './lib';
-const ignore = ['manufacturers.json', 'weapons.json', 'systems.json', 'mods.json','talents.json','pilot_gear.json','frames.json'];
+const ignore = [];
 
 const ignoreWords = ['{VAL}', '({VAL})', '{VAL}+', 'HP', 'GRIT', 'SP', 'AP', '(AP)'];
 
