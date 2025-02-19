@@ -1,4 +1,4 @@
-# Player-facing Operation: SOLSTICE RAIN Data for Comp/Con
+# IGF + Suldan
 
 ## Installation
 
