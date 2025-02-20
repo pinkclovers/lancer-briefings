@@ -13,10 +13,10 @@
           					<!--<h1>Name or Legal Alias</h1>-->
          					<h2>{{ npc.name }}</h2>
 						<h1>{{ npc.pronoun }}</h1>
-						<h1>// {{ npc.location }}</h1>
 						<br />
         					</div>
 					</div>
+					<h1>// {{ npc.location }}</h1>
 					<h1>{{ npc.title }}</h1> 
 					
 				</div>	
