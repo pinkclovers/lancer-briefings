@@ -17,7 +17,7 @@
 					<div class="preview">
 						<h1>{{ getPreview }}</h1>
 					</div>
-					<a @click.prevent="npcModal"><h2> Read More... </h2></a>
+					<a @click.prevent="npcModal"><h3> Read More... </h3></a>
 				</div>	
 			</div>
 		</div>
@@ -49,7 +49,7 @@ export default {
 	},
 	computed: {
 		getPreview() {
-			return this.removeMd(this.npc.content).substring(0, 20) + "...";
+			return this.removeMd(this.npc.content).substring(0, 100) + "...";
 		},
 	},
 	methods: {
