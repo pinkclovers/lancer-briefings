@@ -118,11 +118,12 @@ export default {
 			let fileContents = await Promise.all(filePromises);
 			fileContents.forEach(content => {
 				let npc = {};
-				npc["title"] = content.split("\n")[0];
-				npc["location"] = content.split("\n")[1];
-				npc["time"] = content.split("\n")[2];
-				npc["thumbnail"] = content.split("\n")[3];
-				npc["content"] = content.split("\n").splice(4).join("\n");
+				npc["name"] = content.split("\n")[0];
+				npc["title"] = content.split("\n")[1];
+				npc["location"] = content.split("\n")[2];
+				npc["pronoun"] = content.split("\n")[3];
+				npc["thumbnail"] = content.split("\n")[4];
+				npc["content"] = content.split("\n").splice(5).join("\n");
 				this.npcs = [...this.npcs, npc];
 			});
 		},
