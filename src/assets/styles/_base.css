@@ -622,10 +622,11 @@ section .section-header h1 {
 }
 
 .npc .thumbnail {
-	width: 150px;
-	height: 150px;
-	object-fit: contain;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 	object-position: top;
+	overflow: clip;
 }
 
 .event a{
