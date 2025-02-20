@@ -1,6 +1,7 @@
-Zinfandel DeJean {They/Them}
+Zinfandel DeJean
 MILITIA COMMANDER
 Hell's Gate //
+{They/Them}
 https://i.imgur.com/nbNq3e3.png
 
 *“C’mon, kiddos! Outnumbered two-to-one just means they have half as much chance of killing you!”*
