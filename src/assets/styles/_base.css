@@ -624,7 +624,7 @@ section .section-header h1 {
 .npc .thumbnail {
 	width: 150px;
 	height: 150px;
-	object-fit: fill;
+	object-fit: contain;
 	object-position: top;
 }
 
