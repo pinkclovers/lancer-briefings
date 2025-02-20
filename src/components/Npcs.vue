@@ -17,9 +17,9 @@
 				</div>	
 			</div>
 			<div class="preview">
-				{{ getPreview }}
+				<h1>{{ getPreview }}</h1>
 			</div>
-			<a @click.prevent="NpcModal">Read more </a>
+			<a @click.prevent="NpcModal"><h1>Read more</h1></a>
 		</div>
 	</div>
 </template>
@@ -59,7 +59,7 @@ export default {
 				custom: true,
 				trapFocus: true,
 				props: {
-					npc: this.npc,
+					npc: this.npc.content,
 				},
 				class: "custom-modal",
 				width: 1920,
