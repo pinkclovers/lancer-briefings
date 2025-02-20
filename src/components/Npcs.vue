@@ -16,7 +16,7 @@
 						<h1>// {{ npc.time }}</h1>
 				</div>	
 			</div>
-			<h1>{{ npc.content }}</h1>
+			<h3>{{ npc.content }}</h3>
 		</div>
 	</div>
 </template>
