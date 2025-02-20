@@ -3,7 +3,7 @@ PILOT OF THE DRAGON'S TOOTH
 Dragon's Tooth //
 https://i.imgur.com/X3jvgil.png
 
-**“No whining, marine! Think of g-force like a high score! Are you gonna let Mother Nature beat you?!”**
+*“No whining, marine! Think of g-force like a high score! Are you gonna let Mother Nature beat you?!”*
 
 
 An **ALKONOST**-class flight operations NHP who's lived since SecComm. During an absence of qualified pilots after the Demon Winter, Siren was given flight control of the *Dragon's Tooth*, one of the Gate's clippers.
