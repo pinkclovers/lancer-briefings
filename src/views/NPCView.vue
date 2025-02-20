@@ -22,7 +22,7 @@
 
 <script>
 import Markdown from "vue3-markdown-it";
-import Npc from "@/components/Npcs.vue";
+import Npc from "@/components/NpcsFull.vue";
 
 export default {
 	components: {
