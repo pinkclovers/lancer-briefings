@@ -1,19 +1,21 @@
 <template>
 	<div class="pilot-wrapper">
-		<div class="npc">
-			<img class="thumbnail" :src="npc.thumbnail" />
+		<div class="" @click="pilotModal">
+			<div class="npc">
+				<img class="thumbnail" :src="npc.thumbnail" />
 			</div>
-	<div>
+		</div>
+		<div>
 			<div>
 				<div class="gear-column">
-      				<div class="gear-row">
+      					<div class="gear-row">
 						<div class="name">
           					<!--<h1>Name or Legal Alias</h1>-->
          					<h2>{{ npc.title }}</h2>
-        				</div>
+        					</div>
 					</div>
 					<h1>{{ npc.location }}</h1> 
-						<h1>// {{ npc.time }}</h1>
+					<h1>// {{ npc.time }}</h1>
 				</div>	
 			</div>
 		</div>
