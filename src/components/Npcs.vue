@@ -12,7 +12,7 @@
 						<div class="name">
           					<!--<h1>Name or Legal Alias</h1>-->
          					<h2>{{ npc.name }}</h2>
-						<h2>{{ npc.pronoun }}</h2> 
+						<h1>{{ npc.pronoun }}</h1> \n
         					</div>
 					</div>
 					<h1>{{ npc.title }}</h1> 
