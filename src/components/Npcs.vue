@@ -16,7 +16,7 @@
 						<h1>// {{ npc.time }}</h1>
 				</div>	
 			</div>
-			<div class="preview"
+			<div class="preview">
 				{{ getPreview }}
 			</div>
 			<a @click.prevent="NpcModal">Read more </a>
