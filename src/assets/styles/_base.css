@@ -626,8 +626,8 @@ section .section-header h1 {
 	width: 150%;
 	max-width: 100px;
 	min-width: 100px;
-	height: 150%;
-	max-height: 200px;
+	height: 200%;
+	max-height: 250px;
 	filter: brightness(70%);
 }
 
