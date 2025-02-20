@@ -12,12 +12,14 @@
          					<h2>{{ npc.title }}</h2>
         				</div>
 					</div>
-					<h1>{{ npc.location }}</h1> 
-						<h1>// {{ npc.time }}</h1>
-					<div class="preview">
-						<a>{{ getPreview }}</a>
-					</div>
-					<a @click.prevent="npcModal"> Read More... </a>
+					<div class="npc">
+						<h1>{{ npc.location }}</h1> 
+							<h1>// {{ npc.time }}</h1>
+						<div class="preview">
+							<a>{{ getPreview }}</a>
+						</div>
+						<a @click.prevent="npcModal"> Read More... </a>
+					</div>	
 				</div>	
 			</div>
 		</div>
