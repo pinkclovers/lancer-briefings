@@ -637,7 +637,7 @@ section .section-header h1 {
 	cursor: pointer;
 }
 
-.npcsfull a {
+.npc a {
 	line-height: 1.5em;
 	font-size: 16px;
 	font-weight: 600;
