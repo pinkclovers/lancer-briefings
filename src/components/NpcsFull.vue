@@ -14,7 +14,7 @@
 					</div>
 					<h1>{{ npc.location }}</h1> 
 						<h1>// {{ npc.time }}</h1>
-					<a @click.prevent="npcModal"> {{ npc.content }} </a>
+					<a @click.prevent="npcModal"> Read More... </a>
 				</div>	
 			</div>
 		</div>
@@ -56,7 +56,7 @@ export default {
 				custom: true,
 				trapFocus: true,
 				props: {
-					npc: this.npc.content,
+					npc: this.npc,
 				},
 				class: "custom-modal",
 				width: 1920,
