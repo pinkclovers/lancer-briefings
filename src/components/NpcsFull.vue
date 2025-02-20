@@ -14,6 +14,9 @@
 					</div>
 					<h1>{{ npc.location }}</h1> 
 						<h1>// {{ npc.time }}</h1>
+					<div class="preview">
+						{{ getPreview }}
+					</div>
 					<a @click.prevent="npcModal"><h2> Read More... </h2></a>
 				</div>	
 			</div>
@@ -46,7 +49,7 @@ export default {
 	},
 	computed: {
 		getPreview() {
-			return this.removeMd(this.npc.content).substring(0, 10) + "...";
+			return this.removeMd(this.npc.content).substring(0, 20) + "...";
 		},
 	},
 	methods: {
