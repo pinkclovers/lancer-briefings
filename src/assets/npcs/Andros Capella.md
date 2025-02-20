@@ -1,4 +1,4 @@
-Andros Capella
+Andros Capella {He/Him}
 THE HOUND OF HELL
 ??? //
 https://i.imgur.com/w5X8pDd.png
