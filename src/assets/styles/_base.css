@@ -625,8 +625,8 @@ section .section-header h1 {
 	object-fit: cover;
 	object-position: 50% 50%;
 	width: 150%;
-	max-width: 100px;
-	min-width: 100px;
+	max-width: 150px;
+	min-width: 150px;
 	height: 200%;
 	max-height: 250px;
 	filter: brightness(70%);
