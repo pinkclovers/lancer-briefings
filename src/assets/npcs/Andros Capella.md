@@ -1,7 +1,7 @@
 Andros Capella
 THE HOUND OF HELL
 ??? //
-{HE/HIM}
+HE/HIM
 https://i.imgur.com/w5X8pDd.png
 
 *“Man walks into a grocery store, asks for a can of beans.*
