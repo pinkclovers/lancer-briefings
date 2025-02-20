@@ -35,6 +35,7 @@ export default {
 	components: {
 		Markdown,
 		NpcModal,
+		npc,
 	},
 	props: {
 		npc: {
