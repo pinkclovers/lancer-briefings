@@ -12,6 +12,7 @@
 						<div class="name">
           					<!--<h1>Name or Legal Alias</h1>-->
          					<h2>{{ npc.title }}</h2>
+						<h1>{{ npc.pronoun }}</h1> 
         					</div>
 					</div>
 					<h1>{{ npc.location }}</h1> 
