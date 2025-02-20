@@ -1,7 +1,7 @@
 <template>
 	<div class="pilot-wrapper">
 		<div class="" @click="pilotModal">
-			<div class="npc">
+			<div class="npc_nopadding">
 				<img class="thumbnail" :src="npc.thumbnail" />
 			</div>
 		</div>
