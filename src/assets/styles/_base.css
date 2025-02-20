@@ -622,8 +622,9 @@ section .section-header h1 {
 }
 
 .npc .thumbnail {
-	width: 150px;
 	object-fit: cover;
+	width: 150px;
+	height: 300px;
 }
 
 .event a{
