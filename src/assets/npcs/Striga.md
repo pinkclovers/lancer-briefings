@@ -3,7 +3,7 @@ INCOMPREHENSIBLE.
 Hell's Gate //
 https://i.imgur.com/xQ7ivzf.png
 
-"Well, that’s a fascinating question! I’m so glad you asked" [you did not ask]
+*"Well, that’s a fascinating question! I’m so glad you asked" [you did not ask]*
 
 Striga is a tall, rail-thin, ghostly pale woman. Recognizable by her squirrely demeanor, wild hair and unnaturally wide eyes.
 
