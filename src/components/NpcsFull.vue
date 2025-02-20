@@ -14,7 +14,7 @@
 					</div>
 					<h1>{{ npc.location }}</h1> 
 						<h1>// {{ npc.time }}</h1>
-					<h1> {{npc.content}} </h1>
+					{{npc.content}}
 				</div>	
 			</div>
 		</div>
