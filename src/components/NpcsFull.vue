@@ -51,7 +51,7 @@ export default {
 	},
 	computed: {
 		getPreview() {
-			return this.removeMd(this.npc.content).substring(0, 100) + "...";
+			return this.removeMd(this.npc.content).substring(0, 200) + "...";
 		},
 	},
 	methods: {
