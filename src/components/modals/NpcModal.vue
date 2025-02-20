@@ -3,14 +3,14 @@
 		<div class="npc-header-container">
 			<div class="section-header clipped-medium-backward-bio">
 				<img src="/icons/npc.svg" />
-				<h1>NPCs</h1>
+				<h1>{{ npc.name }}</h1>
 			</div>
 			<div class="rhombus-back">&nbsp;</div>
 		</div>
 		<div class="npc">
 			<div class="name">
 				<h1>{{ npc.title }} // {{ npc.location }} </h1>
-				<h2>{{ npc.name }}</h2> <h1>{{npc.pronoun}}</h1>
+				<h2></h2> <h1>{{npc.pronoun}}</h1>
 			</div>
 			<Markdown :source="npc.content" class="markdown" />
 			
