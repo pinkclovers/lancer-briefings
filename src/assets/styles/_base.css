@@ -623,7 +623,6 @@ section .section-header h1 {
 
 .npc .thumbnail {
 	width: 150px;
-	height: 175px;
 	object-fit: cover;
 }
 
