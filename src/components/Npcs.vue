@@ -2,7 +2,7 @@
 	<div class="pilot-wrapper">
 		<div class="" @click="pilotModal">
 			<div class="npc">
-				<img class="portrait" :src="npc.thumbnail" />
+				<img class="thumbnail" :src="npc.thumbnail" />
 			</div>
 		</div>
 		<div>
