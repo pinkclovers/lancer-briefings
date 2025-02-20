@@ -1094,10 +1094,29 @@ section .section-header h1 {
 	position: relative;
 }
 
+.npc-modal {
+	position: relative;
+}
+
 .event-modal .pilot-header-container {
 	display: flex;
 }
+
+.npc-modal .pilot-header-container {
+	display: flex;
+}
+
 .event-modal div .section-header {
+	background-color: var(--primary-color);
+	border-color: var(--primary-color);
+	height: 52px;
+	display: inline-flex;
+	gap: 15px;
+	padding-left: 16px;
+	margin-top: -38px !important;
+}
+
+.npc-modal div .section-header {
 	background-color: var(--primary-color);
 	border-color: var(--primary-color);
 	height: 52px;
@@ -1115,6 +1134,16 @@ section .section-header h1 {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
+.npc-modal div .section-header h1 {
+	font-size: 26px;
+	margin: 0%;
+	align-self: center;
+	font-family: "Big Shoulders Display", cursive;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
 .event-modal .rhombus-back {
 	transform: skew(0.785398rad) !important;
 	background-color: var(--primary-color);
@@ -1126,7 +1155,26 @@ section .section-header h1 {
 	left: -10px;
 	top: -38px;
 }
+.npc-modal .rhombus-back {
+	transform: skew(0.785398rad) !important;
+	background-color: var(--primary-color);
+	border-color: var(--primary-color);
+	width: 40px;
+	height: 52px;
+	display: inline-block;
+	position: relative;
+	left: -10px;
+	top: -38px;
+}
+
 .event-modal div.event {
+	background-color: var(--secondary-color);
+	border: 1px solid var(--primary-color);
+	margin-top: -38px;
+	width: 888px;
+	height: 662px;
+}
+.npc-modal div.npc {
 	background-color: var(--secondary-color);
 	border: 1px solid var(--primary-color);
 	margin-top: -38px;
@@ -1135,6 +1183,11 @@ section .section-header h1 {
 }
 
 .event-modal div.event div.markdown {
+	height: 600px;
+	width: 888px;
+	margin-left: -18px;
+}
+.npc-modal div.npc div.markdown {
 	height: 600px;
 	width: 888px;
 	margin-left: -18px;
@@ -1406,6 +1459,14 @@ div.markdown ol li {
 	padding-bottom: 1em;
 	border-bottom: none;
 }
+
+#npcs .markdown {
+	height: 666px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: none;
+}
+
 .person .markdown {
 	width: 350px;
 	height: 136px;
