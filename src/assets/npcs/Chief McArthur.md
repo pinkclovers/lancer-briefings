@@ -1,7 +1,7 @@
 Chief McArthur
 CHIEF ENGINEER
 Hell's Gate //
-{She/Her}
+She/Her
 https://i.imgur.com/1QhdAvE.png
 
 *“Oh yeah, no, we* definitely *need to be running. The error code is just gonna tell us how fast.”*
