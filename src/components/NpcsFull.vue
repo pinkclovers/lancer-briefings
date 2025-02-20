@@ -14,7 +14,7 @@
 					</div>
 					<h1>{{ npc.location }}</h1> 
 						<h1>// {{ npc.time }}</h1>
-					<a> {{ npc.content }} </a>
+					<a @click.prevent="npcModal"> {{ npc.content }} </a>
 				</div>	
 			</div>
 		</div>
