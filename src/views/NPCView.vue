@@ -27,7 +27,7 @@ import Npc from "@/components/Npcs.vue";
 export default {
 	components: {
 		Markdown,
-		Npc,
+		Npcs,
 	},
 	props: {
 		animate: {
