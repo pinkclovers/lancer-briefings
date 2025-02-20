@@ -3,7 +3,7 @@ RETIRED PIRATE, CURRENT MECH-HEAD
 Hell's Gate //
 https://i.imgur.com/G5GCm6r.png
 
-"Trust me, kid, lotta people have that idea once, and the ones who survive never try it again."
+*"Trust me, kid, lotta people have that idea once, and the ones who survive never try it again."*
 
 Perhaps the station's most controversial residents. She is a constant reminder of the time Jerry has broken the Golden Rule of Hell's Gate, Never let a Hell Hound back on the station.
 
