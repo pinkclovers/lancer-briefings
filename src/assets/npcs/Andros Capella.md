@@ -21,4 +21,4 @@ https://i.imgur.com/w5X8pDd.png
 
 *“Man says ‘mate, do I look like a savage to you?’”*
 
-[DATA INSUFFICIENT]
+[DATA INSUFFICIENT FOR SUMMARY]
