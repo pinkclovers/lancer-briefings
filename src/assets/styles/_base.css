@@ -625,8 +625,6 @@ section .section-header h1 {
 	width: 150px;
 	height: 175px;
 	object-fit: cover;
-	object-position: top;
-	overflow: clip;
 }
 
 .event a{
