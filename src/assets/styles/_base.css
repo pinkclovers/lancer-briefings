@@ -559,7 +559,7 @@ section .section-header h1 {
 }
 
 .npc {
-	padding: 1em;
+	padding: 0em;
 	border-bottom: 1px solid var(--primary-color);
 }
 
