@@ -1,6 +1,7 @@
-Jerry Masters {He/Him}
+Jerry Masters
 Acting Station Director
 Hell's Gate //
+{He/Him}
 https://i.imgur.com/N5dmtWi.png
 
 *"Anxiety attack? No, this feels more like an anxiety war of attrition."*
