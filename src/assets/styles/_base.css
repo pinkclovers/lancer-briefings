@@ -622,9 +622,9 @@ section .section-header h1 {
 }
 
 .npc .thumbnail {
-	width: 500px;
-	height: 500px;
-	object-fit: cover;
+	width: 150px;
+	height: 150px;
+	object-fit: fill;
 	object-position: top;
 }
 
