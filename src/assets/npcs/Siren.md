@@ -1,7 +1,7 @@
 Siren
 PILOT OF THE DRAGON'S TOOTH
 Dragon's Tooth //
-{She/Her}
+She/Her
 https://i.imgur.com/X3jvgil.png
 
 *“No whining, marine! Think of g-force like a high score! Are you gonna let Mother Nature beat you?!”*
