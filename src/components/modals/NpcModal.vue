@@ -13,6 +13,7 @@
 				<h2>{{ npc.title }}</h2>
 			</div>
 			<Markdown :source="npc.content" class="markdown" />
+			<h1>{{npc.content}}</h1>
 		</div>
 	</div>
 </template>
