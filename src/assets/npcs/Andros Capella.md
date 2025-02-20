@@ -5,7 +5,7 @@ https://i.imgur.com/w5X8pDd.png
 
 *“Man walks into a grocery store, asks for a can of beans.*
 
-*Guy at the counter says ‘hey, didn’t I sell you a can of beans twenty minutes ago?’*
+*"Guy at the counter says ‘hey, didn’t I sell you a can of beans twenty minutes ago?’*
 
 *“Man says ‘yeah, but it got all dented.’*
 
