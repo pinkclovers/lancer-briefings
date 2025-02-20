@@ -628,6 +628,7 @@ section .section-header h1 {
 	height: 150%;
 	max-height: 250px;
 	filter: brightness(50%);
+	z-index: -1;
 }
 
 .event a{
