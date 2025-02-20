@@ -17,7 +17,7 @@
 					<div class="preview">
 						{{ getPreview }}
 					</div>
-					<a @click.prevent="npcModal"> Read More... </a>
+					<ol @click.prevent="npcModal"> Read More... </ol>
 				</div>	
 			</div>
 		</div>
@@ -35,7 +35,6 @@ export default {
 	components: {
 		Markdown,
 		NpcModal,
-		npc,
 	},
 	props: {
 		npc: {
