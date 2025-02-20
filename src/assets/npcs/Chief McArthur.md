@@ -3,7 +3,7 @@ CHIEF ENGINEER
 Hell's Gate //
 https://i.imgur.com/1QhdAvE.png
 
-“Oh yeah, no, we  *definitely* need to be running. The error code is just gonna tell us how fast.”
+*“Oh yeah, no, we* definitely *need to be running. The error code is just gonna tell us how fast.”*
 
 A thin athletics woman with close-shaven blakc hair, and a ocular implant replacing her left eye.
 
