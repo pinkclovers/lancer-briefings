@@ -10,7 +10,7 @@
 		<div class="npc">
 			<div class="name">
 				<h1>{{ npc.title }} // {{ npc.location }} </h1>
-				<h2>{{ npc.name }}</h2> // <h1>{{npc.pronoun}}</h1>
+				<h2>{{ npc.name }}</h2> <h1>{{npc.pronoun}}</h1>
 			</div>
 			<Markdown :source="npc.content" class="markdown" />
 			
