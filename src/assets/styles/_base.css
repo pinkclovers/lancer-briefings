@@ -1387,6 +1387,16 @@ div.markdown {
   scrollbar-width: thin;
 }
 
+div.markdown a {
+	line-height: 1.5em;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: "Roboto", sans-serif;
+	color: var(--primary-color);
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 div.markdown p {
 	margin: 1em 0;
 }
