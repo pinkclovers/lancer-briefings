@@ -625,6 +625,7 @@ section .section-header h1 {
 	object-fit: cover;
 	object-position: 50% 50%;
 	width: 150%;
+	margin-right: 0px;
 	max-width: 125px;
 	min-width: 125px;
 	height: 200%;
