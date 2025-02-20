@@ -9,8 +9,8 @@
 		</div>
 		<div class="npc">
 			<div class="name">
-				<h1>{{ npc.location }} // {{ npc.time }} </h1>
-				<h2>{{ npc.title }}</h2>
+				<h1>{{ npc.title }} // {{ npc.location }} </h1>
+				<h2>{{ npc.name }}</h2> // <h1>{{npc.pronoun}}</h1>
 			</div>
 			<Markdown :source="npc.content" class="markdown" />
 			
