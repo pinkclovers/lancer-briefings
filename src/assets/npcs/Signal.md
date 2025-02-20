@@ -1,7 +1,7 @@
 S1GN4L {H3/H1M}
 ''4LPH4'' SIGDIVER, STUFF FINDER
 DEAD //
-https://i.imgur.com/6xplYvs.png
+https://i.imgur.com/DyhDqOT.png
 
 *"Y0U C0M3 1N70 MY H0U53, 5H007 MY M3CH, C411 M3 64Y???"*
 
