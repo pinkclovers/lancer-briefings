@@ -34,10 +34,7 @@ export default {
 	name: "Npc",
 	components: {
 		Markdown,
-		NpcModal,
-		NpcsModal,
-		Npc,
-		Npcs,
+		NpcModal
 	},
 	props: {
 		npc: {
