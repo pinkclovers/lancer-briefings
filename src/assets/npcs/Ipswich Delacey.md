@@ -1,7 +1,7 @@
 Ipswich Delacey
 OMNISTREAM SENSATION
 Hell's Gate //
-{They/Them}
+They/Them
 https://i.imgur.com/fNLSv7S.png
 
 *“What’s up lancers, it’s ya boi Switch, back at it again Live from the Long Rim!”*
