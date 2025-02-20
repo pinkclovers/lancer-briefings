@@ -1,6 +1,7 @@
-Striga Von Aldenberg {She/Her}
+Striga Von Aldenberg
 INCOMPREHENSIBLE.
 Hell's Gate //
+{She/Her}
 https://i.imgur.com/xQ7ivzf.png
 
 *"Well, that’s a fascinating question! I’m so glad you asked" [you did not ask]*
