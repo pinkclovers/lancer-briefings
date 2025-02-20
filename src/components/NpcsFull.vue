@@ -17,7 +17,7 @@
 					<div class="preview">
 						<.preview> {{ getPreview }} </.preview>
 					</div>
-					<a @click.prevent="npcModal"><a> Read More... </a></a>
+					<a @click.prevent="npcModal"> Read More... </a>
 				</div>	
 			</div>
 		</div>
