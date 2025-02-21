@@ -1,5 +1,5 @@
 Striga Von Aldenberg
-INCOMPREHENSIBLE.
+Felicitations, comrades!
 Hell's Gate //
 She/Her
 https://i.imgur.com/xQ7ivzf.png
