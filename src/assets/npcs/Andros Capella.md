@@ -22,4 +22,4 @@ https://i.imgur.com/w5X8pDd.png
 
 *“Man says ‘mate, do I look like a savage to you?’”*
 
-[DATA INSUFFICIENT FOR SUMMARY]
+Leader of the Hell Hounds, Public Enemy Number One of Hell's Gate, and leading cause of death within the militia.
