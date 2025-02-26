@@ -696,6 +696,15 @@ section .section-header h1 {
 	text-align: left;
 }
 
+.reserve .notes {
+	font-family: "Titillium Web", cursive;
+	font-weight: 200;
+	font-size: 10px;
+	color: var(--text-markdown-p);
+	margin: 0.2em;
+	text-align: left;
+}
+
 .reserve .pilot {
 	display: flex;
 	flex-direction: row;
