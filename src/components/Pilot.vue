@@ -251,8 +251,8 @@ export default {
   methods: {
     getBond() {
       const knownBonds = [...ktbData.bonds, ...igfaData.bonds]
-      let bond = knownBonds.find((obj) => {
-        return obj.id === this.pilot.id
+      this.bond = knownBonds.find((obj) => {
+        return obj.id === this.pilot.bondId
       })
     },
     getActiveMech() {
