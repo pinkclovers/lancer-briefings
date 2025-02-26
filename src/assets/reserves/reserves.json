@@ -32,7 +32,7 @@
 		"description": "At the start of each combat, choose a single hostile character within Range 50 and Scan them. This does not require line of sight.",
 		"label": "Label",
 		"cost": "Cost",
-		"notes": "With the intense signal jamming blanketing the city, these high-ceiling, long-loiter drones provide some of the best intel a pilot is likely to get.",
+		"notes": "These babies are used by UNION in the case of signal jamming hardware, these high-ceiling, long-loiter drones provide some of the best intel a pilot is likely to get.",
 		"callsign": "ROULETTE"
 	},
 	{
