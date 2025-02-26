@@ -1,8 +1,8 @@
 Andros Capella
 THE HOUND OF HELL
-??? //
+DEAD //
 HE/HIM
-https://i.imgur.com/DdWw6Vc.png
+https://i.imgur.com/EOxhubT.png
 
 *“Man walks into a grocery store, asks for a can of beans.*
 
