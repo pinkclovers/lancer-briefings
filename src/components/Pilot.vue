@@ -8,7 +8,7 @@
           <h2>{{ pilotInfo.callsign }}</h2>
         </div>
         <div class="name">
-          <h1>Name or Legal Alias</h1>
+          <h1>Name or Alias</h1>
           <h2>{{ pilotInfo.name }}</h2>
         </div>
         <div
