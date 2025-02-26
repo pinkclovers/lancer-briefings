@@ -1,20 +1,29 @@
 [
 	{
 		"type": "Favor",
+		"name": "Telemetry Package",
+		"description": "",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "It’s not hard to see why this data attracted so much interest. Three years ago, something tore open the fabric of spacetime above Chameleon, and it left a tiny scar. You couldn’t even see it if you didn’t already know what to look for, but it’s there",
+		"callsign": ""
+	},
+	{
+		"type": "Favor",
 		"name": "A Shot at Redemption [1/1]",
 		"description": "Expend a charge at the start of a fight. A friendly SPACER SUPPORT with REMOTE CLOUD shows up to help you for the rest of the fight.",
 		"label": "Label",
 		"cost": "Cost",
-		"notes": "Notes",
+		"notes": "Captured pirates are often sentenced to community service, and it just so happens that the service the community needs right now is dealing with pirates. Sometimes, the universe has a beautiful symmetry",
 		"callsign": ""
 	},
 	{
 		"type": "Favor",
 		"name": "Jerry’s Care Package [2/2]",
-		"description": "A bunch of Icebreaker currency, a few backstage passes, a case of Elysian champagne, a scrawled note containing the passphrases to several of the “niche interest” clubs and VIP tickets to the next championship mech bout. Kick your feet up and relax. You deserve it! \n Expend a charge when you’re on the Icebreaker and not in immediate danger. You can take a Downtime Action appropriate to the situation, right now.]",
+		"description": "Expend a charge when you’re on the Icebreaker and not in immediate danger. You can take a Downtime Action appropriate to the situation, right now.",
 		"label": "Label",
 		"cost": "Cost",
-		"notes": "Notes",
+		"notes": "A bunch of Icebreaker currency, a few backstage passes, a case of Elysian champagne, a scrawled note containing the passphrases to several of the “niche interest” clubs and VIP tickets to the next championship mech bout. Kick your feet up and relax. You deserve it!",
 		"callsign": ""
 	},
 	{
@@ -23,7 +32,7 @@
 		"description": "At the start of each combat, choose a single hostile character within Range 50 and Scan them. This does not require line of sight.",
 		"label": "Label",
 		"cost": "Cost",
-		"notes": "Notes",
+		"notes": "With the intense signal jamming blanketing the city, these high-ceiling, long-loiter drones provide some of the best intel a pilot is likely to get.",
 		"callsign": "ROULETTE"
 	},
 	{
@@ -32,7 +41,7 @@
 		"description": "During a Mission, while not in immediate danger, you can recharge your Core System Battery using the Delta-5 Power Relay. The relay is then irreperable",
 		"label": "Label",
 		"cost": "Cost",
-		"notes": "Notes",
+		"notes": "Man, ain’t life one hell of a joke? All that trouble, and one was just floating out here. Jerry won’t appreciate the irony, but it’ll be good to have a spare.",
 		"callsign": "ROULETTE"
 	},
 	{
@@ -41,25 +50,25 @@
 		"description": "1/mission: Reload all weapons as a free action.",
 		"label": "Label",
 		"cost": "Cost",
-		"notes": "Notes",
+		"notes": "",
 		"callsign": "POET"
 	},
 	{
 		"type": "Exotic",
 		"name": "Bronco Hook",
-		"description": "",
+		"description": "As a quick action, choose a character within Range 5 and line of sight. They make an AGILITY save. If they fail, you embed a hooked cable in the target. You and the target may not move more than 5 spaces away from each other. Either character can tow the other, obeying the normal rules for lifting and dragging, and becoming SLOWED while doing so. Any character can remove the cables on a hit with a melee attack or IMPROVISED ATTACK against EVASION 15. The hooked character can also rip the hook out with a quick action, but they take 3 AP Kinetic and become SHREDDED until the end of their next turn if they do so.",
 		"label": "Label",
 		"cost": "Cost",
-		"notes": "Notes",
+		"notes": "An old favorite of both pirates and the people who fight them, this is a wrist-mounted magnetic accelerator, originally designed to make tether points on asteroids by driving mech-scale pitons into them. Rule of thumb is if it punches through a meter of asteroid rock, it punches through ten centimeters of mech.",
 		"callsign": "FAFNIR"
 	},
 	{
 		"type": "Exotic",
 		"name": "Firehawk Plasma Rifle",
-		"description": "",
+		"description": "RANGE 10, 7 Energy +1d6 Heat // HEAVY RIFLE // AP, Heat 3 (Self), Exotic",
 		"label": "Label",
 		"cost": "Cost",
-		"notes": "Notes",
+		"notes": "The Firehawk, unlike typical wide-splash plasma weapons, fires discrete bolts of high-energy plasma, maintaining coherence at range via electromagnetic channel containment. Highly effective against conventional armor and shielding, capable of penetrating even hardened targets and overwhelming even advanced thermal dissipation systems, the Firehawk's supercharged output results in a relatively short effective range as well as heavy power-consumption and coolant requirements.",
 		"callsign": "MINT"
 	}
 ]
