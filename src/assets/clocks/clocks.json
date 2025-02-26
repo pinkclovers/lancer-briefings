@@ -24,8 +24,8 @@
         "result": "Positive",
         "name": "Salvage Crew",
         "description": "• 1 segment: Gain +1g on one skill check to invent, create or repair items, or on one skill check to barter, negotiate or bribe. • 2 segments: During any downtime, gain one piece of Mech Equipment and Gear (Lancer, p. 51) as Reserves. • 6 segments: During any downtime, permanently obtain a piece of EXOTIC GEAR which your character knows about.",
-        "color": "#A6B4B3", 
-        "color": "#A6B4B3", 
+        "color": "#7DBBBB", 
+        "color": "#FD7777", 
         "value": 3,
         "max": 12
     }
