@@ -9,6 +9,15 @@
 		"callsign": ""
 	},
 	{
+		"type": "Favor",
+		"name": "Jerry’s Care Package [2/2]",
+		"description": "A bunch of Icebreaker currency, a few backstage passes, a case of Elysian champagne, a scrawled note containing the passphrases to several of the “niche interest” clubs and VIP tickets to the next championship mech bout. Kick your feet up and relax. You deserve it! \n Expend a charge when you’re on the Icebreaker and not in immediate danger. You can take a Downtime Action appropriate to the situation, right now.]",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "Notes",
+		"callsign": ""
+	},
+	{
 		"type": "Tactical",
 		"name": "Recon Drone",
 		"description": "At the start of each combat, choose a single hostile character within Range 50 and Scan them. This does not require line of sight.",
@@ -18,6 +27,24 @@
 		"callsign": "ROULETTE"
 	},
 	{
+		"type": "Mech",
+		"name": "Delta-5 Power Relay",
+		"description": "During a Mission, while not in immediate danger, you can recharge your Core System Battery using the Delta-5 Power Relay. The relay is then irreperable",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "Notes",
+		"callsign": "ROULETTE"
+	},
+	{
+		"type": "Mech",
+		"name": "High-Speed Loader",
+		"description": "1/mission: Reload all weapons as a free action.",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "Notes",
+		"callsign": "POET"
+	},
+	{
 		"type": "Exotic",
 		"name": "Bronco Hook",
 		"description": "",
@@ -25,5 +52,14 @@
 		"cost": "Cost",
 		"notes": "Notes",
 		"callsign": "FAFNIR"
+	},
+	{
+		"type": "Exotic",
+		"name": "Firehawk Plasma Rifle",
+		"description": "",
+		"label": "Label",
+		"cost": "Cost",
+		"notes": "Notes",
+		"callsign": "MINT"
 	}
 ]
