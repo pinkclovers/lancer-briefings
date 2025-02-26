@@ -7,7 +7,8 @@
 		<div class="description">
 			{{ reserve.description }}
 		</div>
-		<div class="description">
+		<div class="notes">
+			{{}}
 			<i>{{ reserve.notes }}</i>
 		</div>
 		<div v-if="reserve.callsign" class="pilot">
