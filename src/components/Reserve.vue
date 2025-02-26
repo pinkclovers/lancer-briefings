@@ -7,6 +7,9 @@
 		<div class="description">
 			{{ reserve.description }}
 		</div>
+		<div class="description">
+			<i>{{ reserve.notes }}</i>
+		</div>
 		<div v-if="reserve.callsign" class="pilot">
 			<img :src="ownerImage" class="portrait" />
 			<div class="name">
