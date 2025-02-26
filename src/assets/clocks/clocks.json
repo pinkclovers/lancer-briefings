@@ -6,7 +6,7 @@
         "description": "General condition of Hell's Gate and its essential citizens, the more segments this has filled, the easier life is for its citizens.",
         "color": "#7DBBBB", 
         "color": "#FD7777", 
-        "value": 2,
+        "value": 4,
         "max": 12
     },
     {
@@ -18,5 +18,15 @@
         "color": "#FD7777", 
         "value": 1,
         "max": 8
+    },
+    {
+        "type": "Downtime // Roulette",
+        "result": "Positive",
+        "name": "Salvage Crew",
+        "description": "• 1 segment: Gain +1g on one skill check to invent, create or repair items, or on one skill check to barter, negotiate or bribe. • 2 segments: During any downtime, gain one piece of Mech Equipment and Gear (Lancer, p. 51) as Reserves. • 6 segments: During any downtime, permanently obtain a piece of EXOTIC GEAR which your character knows about.",
+        "color": "#A6B4B3", 
+        "color": "#A6B4B3", 
+        "value": 3,
+        "max": 12
     }
 ]
