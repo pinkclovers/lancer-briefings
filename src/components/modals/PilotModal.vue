@@ -13,10 +13,11 @@
 			<div 
       				v-if="pilot.bondPowers.length > 0"
 				class="bond-powers-list">
-				<h1>Bond Powers:</h1>
+				<h1>BOND POWERS:</h1>
         			<div v-for="(item, index) in pilot.bondPowers"
  					:key="item.id">
   					<strong>{{ pilot.bondPowers[index].name }}</strong>
+					{{ pilot.bondPowers[index].description }}
 				</div>
 			</div>
 			<Markdown :source="pilot.history" class="markdown" :html="markdownHtml" />
