@@ -22,6 +22,7 @@
 					<div class="description" v-html=pilot.bondPowers[index].description>
 					</div>
 				</div>
+				<hr />
 			</div>
 			<Markdown :source="pilot.history" class="markdown" :html="markdownHtml" />
 		</div>
