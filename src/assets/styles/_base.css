@@ -945,6 +945,13 @@ section .section-header h1 {
 	color: var(--text-markdown-p);
 }
 
+
+.pilot-modal div.pilot div.bond-powers-list div.description{
+	font-size: 12px;
+	margin: 0.75em;
+	font-weight: 200;
+}
+
 .pilot-modal .pilot-header-container {
 	display: flex;
 }
