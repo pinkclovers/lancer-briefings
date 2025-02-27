@@ -19,7 +19,7 @@
   					<strong>{{ pilot.bondPowers[index].name }}</strong>
 					{{ pilot.bondPowers[index].frequency }}
 					<br />
-					<div v-html=pilot.bondPowers[index].description>
+					<div class="description" v-html=pilot.bondPowers[index].description>
 					</div>
 				</div>
 			</div>
