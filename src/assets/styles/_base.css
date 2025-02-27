@@ -939,7 +939,7 @@ section .section-header h1 {
 
 .pilot-modal div.pilot div.bond-powers-list{
 	font-size: 16px;
-	margin: 0%;
+	margin: 0.5em;
 	font-family: "Titillium Web", cursive;
 	font-weight: 400;
 	color: var(--text-markdown-p);
