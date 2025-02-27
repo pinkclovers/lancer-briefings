@@ -937,8 +937,12 @@ section .section-header h1 {
 	position: relative;
 }
 
-.pilot-modal .pilot .bondsPowerlist{
-	
+.bonds-powers-list{
+	font-size: 16px;
+	margin: 0%;
+	font-family: "Titillium Web", cursive;
+	font-weight: 400;
+	color: var(--text-markdown-p);
 }
 
 .pilot-modal .pilot-header-container {
