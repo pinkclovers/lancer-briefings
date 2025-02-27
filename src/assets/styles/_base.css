@@ -938,7 +938,7 @@ section .section-header h1 {
 }
 
 .pilot-modal div.pilot div.bond-powers-list{
-	font-size: 16px;
+	font-size: 18px;
 	margin: 0.5em;
 	font-family: "Titillium Web", cursive;
 	font-weight: 400;
@@ -947,8 +947,8 @@ section .section-header h1 {
 
 
 .pilot-modal div.pilot div.bond-powers-list div.description{
-	font-size: 12px;
-	margin: 0.75em;
+	font-size: 14px;
+	margin: 1em;
 	font-weight: 200;
 }
 
