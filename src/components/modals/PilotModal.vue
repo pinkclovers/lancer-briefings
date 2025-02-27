@@ -16,7 +16,7 @@
 				<h1>Bond Powers:</h1>
         			<div v-for="(item, index) in pilot.bondPowers"
  					:key="item.id">
-  					<ol>{{ pilot.bondPowers[index].name }}</ol>
+  					<ol li>{{ pilot.bondPowers[index].name }}</ol li>
 				</div>
 			</div>
 			<Markdown :source="pilot.history" class="markdown" :html="markdownHtml" />
