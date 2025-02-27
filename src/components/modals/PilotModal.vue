@@ -12,7 +12,7 @@
 			
 			<div 
       				v-if="pilot.bondPowers.length > 0"
-				class="markdown">
+				class="bond-powers-list">
 				<h1>Bond Powers:</h1>
         			<div v-for="(item, index) in pilot.bondPowers"
  					:key="item.id">
