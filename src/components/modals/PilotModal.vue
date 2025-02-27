@@ -8,7 +8,7 @@
 			<div class="rhombus-back">&nbsp;</div>
 		</div>
 		<div class="pilot">
-			<h2> {{ pilot.bondPowers.name }} </h2>
+			<h2> {{ pilot.bondPowers[0].name }} </h2>
 			<Markdown :source="pilot.history" class="markdown" :html="markdownHtml" />
 		</div>
 	</div>
