@@ -937,6 +937,10 @@ section .section-header h1 {
 	position: relative;
 }
 
+.pilot-modal .pilot .bondsPowerlist{
+	
+}
+
 .pilot-modal .pilot-header-container {
 	display: flex;
 }
