@@ -17,7 +17,7 @@
         			<div v-for="(item, index) in pilot.bondPowers"
  					:key="item.id">
   					<strong>{{ pilot.bondPowers[index].name }}</strong>
-					<div v-if="pilot.bondPowers[index].frequency.length>0">
+					<div v-if="pilot.bondPowers[index].frequency.length > 0">
 						[ {{ pilot.bondPowers[index].frequency }} ]
 					</div>
 					<br />
