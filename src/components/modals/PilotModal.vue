@@ -18,7 +18,7 @@
  					:key="item.id">
   					<strong>{{ pilot.bondPowers[index].name }}</strong>
 					{{ bondPowers[index].frequency }}
-					<br></br>
+					<br />
 					<div v-html=bondPowers[index].description></div>
 				</div>
 			</div>
