@@ -17,7 +17,9 @@
         			<div v-for="(item, index) in pilot.bondPowers"
  					:key="item.id">
   					<strong>{{ pilot.bondPowers[index].name }}</strong>
-					{{ pilot.bondPowers[index].description }}
+					{{ bondPowers[index].frequency }}
+					<br></br>
+					<div v-html=bondPowers[index].description>
 				</div>
 			</div>
 			<Markdown :source="pilot.history" class="markdown" :html="markdownHtml" />
