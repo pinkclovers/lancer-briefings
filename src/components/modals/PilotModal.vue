@@ -10,8 +10,9 @@
 		<div class="pilot">
 			
 			
-			<div class="markdown"
+			<div 
       				v-if="pilot.bondPowers.length > 0"
+				class="markdown">
         			<div v-for="(item, index) in pilot.bondPowers"
  					:key="item.id">
   					{{ pilot.bondPowers[index].name }}
