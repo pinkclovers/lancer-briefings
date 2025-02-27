@@ -937,7 +937,7 @@ section .section-header h1 {
 	position: relative;
 }
 
-.bonds-powers-list{
+div.bonds-powers-list{
 	font-size: 16px;
 	margin: 0%;
 	font-family: "Titillium Web", cursive;
