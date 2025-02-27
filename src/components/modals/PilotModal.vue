@@ -8,15 +8,16 @@
 			<div class="rhombus-back">&nbsp;</div>
 		</div>
 		<div class="pilot">
+			<h1>{{bondPowers}}</h1>
+			
 			<div
       				v-if="pilot.bondPowers.length > 0"
         			class="bondPowers">
         			<div v-for="(item, index) in bondPowers"
  					:key="item.id">
-  					{{bondPowers[index].name}}
+  					{{ bondPowers[index].name }}
 				</div>
 			</div>
-			<h2> {{ pilot.bondPowers[0].name }} </h2>
 			<Markdown :source="pilot.history" class="markdown" :html="markdownHtml" />
 		</div>
 	</div>
