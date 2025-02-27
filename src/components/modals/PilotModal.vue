@@ -14,7 +14,7 @@
         			<Burden
 					v-for="item in pilot.bondPowers"
 					:key="item.id"
-          				:bondPowers="item"/>
+          				:name="item"/>
 			</div>
 			<h2> {{ pilot.bondPowers[0].name }} </h2>
 			<Markdown :source="pilot.history" class="markdown" :html="markdownHtml" />
