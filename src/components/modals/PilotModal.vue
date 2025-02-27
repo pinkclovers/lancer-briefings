@@ -19,7 +19,7 @@
   					<strong>{{ pilot.bondPowers[index].name }}</strong>
 					{{ bondPowers[index].frequency }}
 					<br></br>
-					<div v-html=bondPowers[index].description>
+					<div v-html=bondPowers[index].description></div>
 				</div>
 			</div>
 			<Markdown :source="pilot.history" class="markdown" :html="markdownHtml" />
