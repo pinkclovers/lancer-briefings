@@ -8,6 +8,7 @@
 			<div class="rhombus-back">&nbsp;</div>
 		</div>
 		<div class="pilot">
+			{{ pilot.bondPowers }}
 			<Markdown :source="pilot.history" class="markdown" :html="markdownHtml" />
 		</div>
 	</div>
