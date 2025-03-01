@@ -2,7 +2,7 @@ Mikaela Omnidocument-Format
 Local SSC Catgirl
 Hell's Gate //
 She/Them
-https://i.imgur.com/70GuvA7.png
+https://i.imgur.com/M14oKD0.png
 
 *“Oh you should, like, get Tiger Claws, they're sharp and strong enough to cut through a Drake, also they're just cool.”*
 
