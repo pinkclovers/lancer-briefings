@@ -1,5 +1,5 @@
 Mikaela Omnidocument-Format 
-OMNISTREAM SENSATION
+The SSC Genetically-Engineered Catgirl You've Heard About
 Hell's Gate //
 She/Them
 https://i.imgur.com/70GuvA7.png
