@@ -2,7 +2,7 @@ Mikaela Omnidocument-Format
 OMNISTREAM SENSATION
 Hell's Gate //
 She/Them
-https://i.imgur.com/M14oKD0.png
+https://i.imgur.com/70GuvA7.png
 
 *“Oh you should, like, get the SSC Tiger Claws, sharp and strong enough to cut through a Drake.”*
 
