@@ -1,5 +1,5 @@
 Mikaela Omnidocument-Format 
-The SSC Genetically-Engineered Catgirl You've Heard About
+Local SSC Catgirl
 Hell's Gate //
 She/Them
 https://i.imgur.com/70GuvA7.png
