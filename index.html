@@ -10,25 +10,24 @@
 	<body style="margin: 0px">
 		<div id="app"></div>
 		<script type="module" src="/src/main.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 		<script type="module" src="/src/assets/scripts/vanta.net.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
-		<script src="vanta.net.min.js"></script>
-		<script>
+		<script type="module">
 			VANTA.NET({
-				  el: "#your-element-selector",
-				  mouseControls: true,
-				  touchControls: true,
-				  gyroControls: false,
-				  minHeight: 200.00,
-				  minWidth: 200.00,
-				  scale: 1.00,
-				  scaleMobile: 1.00,
-				  color: 0xff823f,
-				  backgroundColor: 0x70707,
-				  points: 20.00,
-				  maxDistance: 31.00,
-				  spacing: 20.00
-			})
+			  el: "#your-element-selector",
+			  mouseControls: true,
+			  touchControls: true,
+			  gyroControls: false,
+			  minHeight: 200.00,
+			  minWidth: 200.00,
+			  scale: 1.00,
+			  scaleMobile: 1.00,
+			  color: 0xff823f,
+			  backgroundColor: 0x70707,
+			  points: 20.00,
+			  maxDistance: 31.00,
+			  spacing: 20.00
+			});
 		</script>
 	</body>
 </html>
