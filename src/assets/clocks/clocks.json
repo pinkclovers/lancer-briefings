@@ -4,8 +4,8 @@
         "result": "Positive",
         "name": "Station Stability",
         "description": "General condition of Hell's Gate and its essential citizens, the more segments this has filled, the easier life is for its citizens.",
+        "color": "#8FFC95", 
         "color": "#7DBBBB", 
-        "color": "#FD7777", 
         "value": 4,
         "max": 12
     },
@@ -14,8 +14,8 @@
         "result": "Positive",
         "name": "Militia Readiness",
         "description": "The general level of combat preparation among the Hell's Gate militia. -- The maintenance and quality of equipment, their training, their drilling, their camaraderie, their willingness to risk life and limb for one another and for the station.",
+        "color": "#8FFC95", 
         "color": "#7DBBBB", 
-        "color": "#FD7777", 
         "value": 1,
         "max": 8
     },
@@ -24,8 +24,8 @@
         "result": "Positive",
         "name": "Salvage Crew",
         "description": "• 1 segment: Gain +1g on one skill check to invent, create or repair items, or on one skill check to barter, negotiate or bribe. • 2 segments: During any downtime, gain one piece of Mech Equipment and Gear (Lancer, p. 51) as Reserves. • 6 segments: During any downtime, permanently obtain a piece of EXOTIC GEAR which your character knows about.",
-        "color": "#7DBBBB", 
-        "color": "#FD7777", 
+        "color": "#64AF68", 
+        "color": "#64AF68", 
         "value": 3,
         "max": 6
     }
