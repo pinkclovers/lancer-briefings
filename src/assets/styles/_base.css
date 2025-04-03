@@ -1515,9 +1515,3 @@ div.markdown ol li {
 .glossary-container .markdown strong {
 	text-transform: uppercase;
 }
-
-@media only screen and (max-width: 720px) {
-  body {
-    transform: scale(0.75);
-  }
-}
