@@ -1,11 +1,11 @@
 {
   "initialSlug": "001",
-  "planetPath": "/Stygia.webm",
+  "planetPath": "/kalevala.webm",
   "animate": true,
   "defaultTitle": "",
   "icon": "/faction-logos/hellsgate.svg",
   "header": {
-    "planet": "Stygia",
+    "planet": "Kalevala (Icebreaker Borealis)",
     "year": "5016u",
     "system": "Calliope",
     "gate": "ANNAMITE-RÀO CỎ",
