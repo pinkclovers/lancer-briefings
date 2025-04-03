@@ -25,7 +25,7 @@
 						<span class="subtitle">{{ header.year }}</span>
 					</div>
 					<div id="planet">
-						<h4>Deployment Info</h4>
+						<h4>Current Location</h4>
 						<span class="subtitle">{{ header.planet }}</span>
 					</div>
 				</div>
@@ -35,7 +35,7 @@
 						<span class="subtitle">{{ header.ring }}</span>
 					</div>
 					<div id="gate">
-						<h4>Gate</h4>
+						<h4>Orbiting</h4>
 						<span class="subtitle">{{ header.gate }}</span>
 					</div>
 					<div id="system">
