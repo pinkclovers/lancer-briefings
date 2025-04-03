@@ -26,17 +26,17 @@
 					</div>
 					<div id="planet">
 						<h4>Current Location</h4>
-						<span class="subtitle">{{ header.planet }}</span>
+						<span class="subtitle">{{ header.station }}</span>
 					</div>
 				</div>
 				<div id="system-gate-ring" class="location-row">
 					<div id="ring">
 						<h4>Ring</h4>
-						<span class="subtitle">{{ header.ring }}</span>
+						<span class="subtitle">{{ header.gate }}</span>
 					</div>
 					<div id="gate">
 						<h4>Orbiting</h4>
-						<span class="subtitle">{{ header.gate }}</span>
+						<span class="subtitle">{{ header.planet }}</span>
 					</div>
 					<div id="system">
 						<h4>System</h4>
