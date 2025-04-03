@@ -12,23 +12,24 @@
 		<script type="module" src="/src/main.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 		<script type="module" src="/src/assets/scripts/vanta.globe.min.js"></script>
-		<script type="module">
-			VANTA.GLOBE({
-				el: "body",
-				mouseControls: false,
-				touchControls: false,
-				gyroControls: false,
-				minHeight: 200.0,
-				minWidth: 200.0,
-				scale: 1.0,
-				scaleMobile: 1.0,
-				color: 0x694f5d,
-				color2: 0x68a691,
-				backgroundColor: 0x0c090d,
-				size: 2.0,
-				sphereRotation: -0.002,
-				meshRotation: 0.004,
-			});
+		<script src="three.r134.min.js"></script>
+		<script src="vanta.net.min.js"></script>
+		<script>
+			VANTA.NET({
+				  el: "#your-element-selector",
+				  mouseControls: true,
+				  touchControls: true,
+				  gyroControls: false,
+				  minHeight: 200.00,
+				  minWidth: 200.00,
+				  scale: 1.00,
+				  scaleMobile: 1.00,
+				  color: 0xff823f,
+				  backgroundColor: 0x70707,
+				  points: 20.00,
+				  maxDistance: 31.00,
+				  spacing: 20.00
+			})
 		</script>
 	</body>
 </html>
