@@ -30,11 +30,11 @@
 					</div>
 				</div>
 				<div id="system-gate-ring" class="location-row">
-					<div id="ring">
+					<div id="gate">
 						<h4>Ring</h4>
 						<span class="subtitle">{{ header.gate }}</span>
 					</div>
-					<div id="gate">
+					<div id="ring">
 						<h4>Orbiting</h4>
 						<span class="subtitle">{{ header.planet }}</span>
 					</div>
