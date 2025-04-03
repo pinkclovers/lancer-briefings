@@ -19,21 +19,12 @@
 	},
 	{
 		"type": "Favor",
-		"name": "Jerry’s Care Package [2/2]",
+		"name": "Jerry’s Care Package [1/2]",
 		"description": "Expend a charge when you’re on the Icebreaker and not in immediate danger. You can take a Downtime Action appropriate to the situation, right now.",
 		"label": "Label",
 		"cost": "Cost",
 		"notes": "A bunch of Icebreaker currency, a few backstage passes, a case of Elysian champagne, a scrawled note containing the passphrases to several of the “niche interest” clubs and VIP tickets to the next championship mech bout. Kick your feet up and relax. You deserve it!",
 		"callsign": ""
-	},
-	{
-		"type": "Tactical",
-		"name": "Recon Drone",
-		"description": "At the start of each combat, choose a single hostile character within Range 50 and Scan them. This does not require line of sight.",
-		"label": "Label",
-		"cost": "Cost",
-		"notes": "These babies are used by UNION in the case of signal jamming hardware, these high-ceiling, long-loiter drones provide some of the best intel a pilot is likely to get.",
-		"callsign": "ROULETTE"
 	},
 	{
 		"type": "Mech",
@@ -43,15 +34,6 @@
 		"cost": "Cost",
 		"notes": "Man, ain’t life one hell of a joke? All that trouble, and one was just floating out here. Jerry won’t appreciate the irony, but it’ll be good to have a spare.",
 		"callsign": "ROULETTE"
-	},
-	{
-		"type": "Mech",
-		"name": "High-Speed Loader",
-		"description": "1/mission: Reload all weapons as a free action.",
-		"label": "Label",
-		"cost": "Cost",
-		"notes": "",
-		"callsign": "POET"
 	},
 	{
 		"type": "Exotic",
