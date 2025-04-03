@@ -5,11 +5,12 @@
   "defaultTitle": "",
   "icon": "/faction-logos/hellsgate.svg",
   "header": {
-    "planet": "Kalevala [Icebreaker Borealis]",
+    "planet": "Kalevala",
     "year": "5016u",
     "system": "Calliope",
     "gate": "ANNAMITE-RÀO CỎ",
     "ring": "ANNAMITE-Line",
+    "station":"Icebreaker Borealis",
     "headerTitle": "MUSE TERMINAL",
     "headerSubtitle": " ",
     "subheaderTitle": "Hell's Gate  ",
