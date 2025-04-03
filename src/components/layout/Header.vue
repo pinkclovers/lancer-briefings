@@ -34,13 +34,13 @@
 						<h4>Ring</h4>
 						<span class="subtitle">{{ header.gate }}</span>
 					</div>
-					<div id="ring">
-						<h4>Orbiting</h4>
-						<span class="subtitle">{{ header.planet }}</span>
-					</div>
 					<div id="system">
-						<h4>System</h4>
+						<h4>Orbiting</h4>
 						<span class="subtitle">{{ header.system }}</span>
+					</div>
+					<div id="ring">
+						<h4>System</h4>
+						<span class="subtitle">{{ header.planet }}</span>
 					</div>
 				</div>
 			</div>
