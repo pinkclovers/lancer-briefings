@@ -8,9 +8,9 @@
 /*--       Theme Customization       --*/
 /*-------------------------------------*/
 :root {
-  /* Primary Colors */
- --primary-color: rgb(14, 98, 39);
- --secondary-color: rgba(18, 29, 13, 0.8);
+ /* Primary Colors */
+--primary-color: rgb(190, 129, 37);
+ --secondary-color: rgba(24, 23, 30, 0.8);
  --highlight-hover: rgba(255, 255, 255, 0);
  --highlight-active: rgba(255, 255, 255, 0.1);
 /* Primary Text */
